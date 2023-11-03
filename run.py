@@ -1,27 +1,3 @@
-def wordsearch():
-    # python3 -m pip install python-wordsearch
-    from wordsearch import WordSearch
-
-    wordsearch = WordSearch(
-        15,
-        15,
-        [
-            "RED",
-            "ORANGE",
-            "YELLOW",
-            "GREEN",
-            "BLUE",
-            "INDIGO",
-            "VIOLET",
-            "PINK",
-        ],
-        mask="circle",
-        output_filestem="color-search",
-        allow_backwards_words=True,
-    )
-    wordsearch.make()
-    print(wordsearch.wordsearch_text)
-
 print("-------------")
 print("q: quit")
 print("e: emoji")
